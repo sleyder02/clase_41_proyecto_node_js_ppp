@@ -1,0 +1,40 @@
+BITÁCORA DE SEGURIDAD OPERATIVA - CLASE 42
+
+Nombre:LEIDER DAVID RAMOS CARO
+Fecha:19/06/2026
+
+1. ¿Qué significa seguridad operativa aplicada?
+Respuesta:Es la ejecución práctica para mitigar riesgos y garantizar que el servidor funcione de forma continua, segura y sin interrupciones
+
+2. ¿Qué es el principio de mínimo privilegio?
+Respuesta:Es un pilar de seguridad que consiste en otorgar a un usuario, proceso o bot únicamente los permisos estrictamente necesarios para hacer su trabajo, cerrando cualquier acceso extra para mitigar riesgos o ataques.
+
+3. ¿Qué significa exposición mínima?
+Respuesta:es una práctica esencial de seguridad operativa que consiste en reducir al extremo los componentes, accesos o datos que quedan expuestos al internet público o a usuarios no autorizados.
+
+4. ¿Para qué sirve .gitignore?
+Respuesta: Sirve para que no subamos datos sensibles y nadielos pueda ver
+
+5. ¿Por qué .env no debe subirse a GitHub?
+Respuesta: por que alli almacenamos tokens, credenciales, usuarios entre otros.
+
+6. ¿Qué datos podrían ser sensibles en este proyecto?
+Respuesta: informacion de usuarios o datos sensibles almacenados
+
+7. ¿Qué archivos no deberían subirse al repositorio?
+Respuesta: el archivo .env
+
+8. ¿Qué rutas deberían mantenerse públicas?
+Respuesta:api/info, estado y saludo
+
+9. ¿Qué rutas deberían limitar información?
+Respuesta:
+
+10. ¿Qué cambio se hizo en /estado?
+Respuesta:menos informacion sensible visible
+
+11. ¿Qué muestra /diagnostico y qué no debe mostrar?
+Respuesta:
+
+12. ¿Qué aprendí sobre proteger credenciales?
+Respuesta:Aprendimos a confinar tokens y llaves secretas en archivos .env (leídos mediante process.env), evitando subirlos a Git para blindar la plataforma contra accesos no autorizados.

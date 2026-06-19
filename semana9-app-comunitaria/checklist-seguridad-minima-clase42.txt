@@ -1,0 +1,24 @@
+CHECKLIST DE SEGURIDAD MÍNIMA - CLASE 42
+
+Nombre:LEIDER DAVID RAMOS CARO
+Fecha:19/06/2026
+Entorno: GitHub Codespaces
+
+[SÌ ] Comprendí el principio de mínimo privilegio.
+[SÌ ] Comprendí el concepto de exposición mínima.
+[SÌ ] Revisé el archivo .gitignore.
+[SÌ ] Confirmé que .env está en .gitignore.
+[SÌ ] Agregué *.env a .gitignore.
+[SÌ ] Confirmé que node_modules/ está en .gitignore.
+[SÌ ] Verifiqué que .env no aparece en git status.
+[SÌ ] Verifiqué .env con git check-ignore.
+[SÌ ] No escribí tokens reales en server.js.
+[SÌ ] No imprimí tokens en consola.
+[SÌ ] No mostré credenciales en rutas públicas.
+[SÌ ] Reduje la información visible en /estado.
+[SÌ ] Creé o revisé la ruta /diagnostico.
+[SÌ ] Verifiqué que /diagnostico no muestra tokens.
+[NO ] No usé datos personales reales.
+[NO ] No tomé capturas con secretos visibles.
+[SÌ ] Comprendí qué archivos no deben subirse.
+[SÌ ] Comprendí qué rutas deben ser públicas y cuáles deben limitarse.

@@ -1,0 +1,37 @@
+BITÁCORA DE DESPLIEGUE - CLASE 41
+
+Nombre:LEIDER DAVID RAMOS CARO
+Fecha:19/06/2026
+Entorno usado: GitHub Codespaces
+
+1. ¿Qué significa desplegar o levantar una aplicación?
+Respuesta:Levantar significa encender el proceso de la aplicación en memoria (ej. npm start) para que empiece a escuchar peticiones, mientras que desplegar es trasladar ese código a un servidor en producción para que el público pueda acceder a él a través de internet.
+
+2. ¿Qué diferencia hay entre código escrito y aplicación ejecutándose?
+Respuesta:El código escrito es el plano estático-sin vida (texto pasivo en archivos de texto o Git), mientras que la aplicación ejecutándose es ese plano cobrando vida en la memoria RAM como un proceso activo que consume CPU y responde peticiones.
+
+3. ¿Qué variable de entorno se usó para definir el puerto?
+Respuesta:Se utilizó la variable de entorno PORT (invocada en el código como process.env.PORT), la cual permite al sistema operativo asignar dinámicamente el puerto del servidor.
+
+4. ¿Qué puerto se usó?
+Respuesta: se uso puerto 3000
+
+5. ¿Qué rutas fueron verificadas?
+Respuesta:saludo, estado, api/info
+
+6. ¿Qué respuesta entregó la ruta /estado?
+Respuesta:app comunitaria semana 9, estado, la fecha actual.
+
+7. ¿Qué ocurrió al consultar una ruta inexistente?
+Respuesta:ruta no encontrada mensaje de error
+
+8. ¿Por qué el archivo .env no debe subirse a GitHub?
+Respuesta: contiene informacion sensible que no debe mostrarse como contraseñas, usuarios tokens entre otras.
+
+9. ¿Qué aprendí sobre disponibilidad de una aplicación?
+Respuesta:Al construir y gestionar el backend de la aplicacion, has integrado aprendizajes
+muy valiosos sobre la disponibilidad que no mide horas, esta disponible todo momento, entendiendo que una aplicación exitosa no es 
+solo la que tiene el mejor código, sino la que permanece accesible para la comunidad cuando más se necesita.
+
+10. ¿Qué debo revisar antes de decir que una aplicación funciona?
+Respuesta: verificar que no salgan errores

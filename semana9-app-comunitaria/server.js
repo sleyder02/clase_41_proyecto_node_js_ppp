@@ -8,8 +8,15 @@ const PORT = process.env.PORT || 3000;
 const APP_NAME = process.env.APP_NAME || "App Comunitaria";
 const APP_ENV = process.env.APP_ENV || "development";
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const REQUIRE_TELEGRAM = process.env.REQUIRE_TELEGRAM === "true";
 
 app.use(express.json());
+
+if (REQUIRE_TELEGRAM && !TELEGRAM_BOT_TOKEN) {
+  console.error("ERROR_OPERATIVO: REQUIRE_TELEGRAM está activo, pero falta TELEGRAM_BOT_TOKEN.");
+  console.error("SUGERENCIA: Revise el archivo .env sin publicar credenciales.");
+  process.exit(1);
+}
 
 function existeTokenTelegram() {
   return Boolean(TELEGRAM_BOT_TOKEN);
@@ -54,6 +61,14 @@ app.get("/diagnostico", (req, res) => {
   });
 });
 
+app.get("/fallo-controlado", (req, res) => {
+  console.error("ERROR_SIMULADO: Se ejecutó la ruta /fallo-controlado para práctica de diagnóstico.");
+  res.status(500).json({
+    error: "Error simulado",
+    mensaje: "Esta ruta se usa solo para practicar diagnóstico."
+  });
+});
+
 app.use((req, res) => {
   res.status(404).json({
     error: "Ruta no encontrada",
@@ -61,7 +76,7 @@ app.use((req, res) => {
   });
 });
 
-app.listen(PORT, () => {
+const server =app.listen(PORT, () => {
   console.log("Servidor iniciado correctamente");
   console.log(`Aplicación: ${APP_NAME}`);
   console.log(`Entorno: ${APP_ENV}`);
@@ -72,4 +87,8 @@ app.listen(PORT, () => {
   } else {
     console.warn("Telegram: token no configurado.");
   }
+});
+server.on("error", (error) => {
+  console.error("ERROR:", error.message);
+  
 });

@@ -1,0 +1,49 @@
+BITÁCORA DE CONTINUIDAD Y DIAGNÓSTICO - CLASE 43
+
+Nombre:LEIDER DAVID RAMOS CARO
+Fecha:19/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es continuidad operativa?
+Respuesta:La continuidad operativa es la capacidad de una plataforma para mantenerse funcionando 
+y accesible sin interrupciones, asegurando que el servicio no se detenga ante fallos técnicos, errores de código o picos de tráfico.
+
+2. ¿Qué es PM2?
+Respuesta:Vigila que la aplicasion no se duerma 
+Es el programa que se encarga de vigilar, mantener vivo y optimizar tu servidor las 24 horas del día.
+
+3. ¿Qué comando usé para iniciar la aplicación con PM2?
+Respuesta: npx pm2 start server.js --name app-semana9
+
+4. ¿Qué comando usé para listar procesos?
+Respuesta:npx pm2 list
+
+5. ¿Qué comando usé para detener la aplicación?
+Respuesta:npx pm2 stop app-semana9
+
+6. ¿Qué comando usé para reiniciar la aplicación?
+Respuesta:npx pm2 restart app-semana9
+
+7. ¿Qué comando usé para revisar logs?
+Respuesta:npx pm2 logs app-semana9 --lines 20
+
+8. ¿Qué error simulé?
+Respuesta:SUGENRENCIA ERROR OPERATIVO
+
+9. ¿Qué mensaje apareció en logs?
+Respuesta:Revise el archivo .env sin publicar credenciales.
+0|app-sema | ERROR_OPERATIVO: REQUIRE_TELEGRAM está activo, pero falta TELEGRAM_BOT_TOKEN.
+
+10. ¿Cuál fue la causa probable del error?
+Respuesta:Falta tokenst real
+
+11. ¿Cómo corregí el error?
+Respuesta:eliminado la variable en archivo .env
+
+12. ¿Qué rutas verifiqué después de corregir?
+Respuesta:curl http://localhost:3000/estado
+curl http://localhost:3000/diagnostico
+curl http://localhost:3000/fallo-controlado
+
+13. ¿Qué debo evitar al tomar capturas de logs?
+Respuesta: que no muestre informacion sensible

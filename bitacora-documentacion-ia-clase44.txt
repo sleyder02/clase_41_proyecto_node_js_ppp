@@ -1,0 +1,47 @@
+BITÁCORA DE DOCUMENTACIÓN E IA - CLASE 44
+
+Nombre:LEIDER DAVID RAMOS CARO
+Fecha:20/06/2026
+Entorno: GitHub Codespaces
+
+1. ¿Qué es un procedimiento técnico?
+Respuesta:Un procedimiento técnico es un documento o guía secuencial que detalla de forma precisa los pasos 
+estandarizados que un administrador o desarrollador debe seguir para realizar una tarea compleja —como un despliegue, configuración o mantenimiento de un servidor— de manera segura y sin errores
+
+2. ¿Por qué documentar evita depender de una sola persona?
+Respuesta: evita ya si nosotros no estamos en frente del codigo por cualquier situacion
+otra cuando vea la documetancion puede continuar.
+
+3. ¿Qué diferencia hay entre Codespaces, hosting compartido, VPS y nube?
+Respuesta:
+Codespaces: Es un entorno de desarrollo temporal en la nube (un editor en tu navegador) diseñado solo para escribir y probar código, no para alojar apps reales.
+Hosting Compartido: Es una opción económica donde tu app comparte el mismo sistema operativo y recursos (RAM/CPU) con cientos de otros sitios, limitando tu control y seguridad.
+VPS (Servidor Virtual Privado): Te da una sección aislada de un servidor con tu propio sistema operativo y recursos dedicados, dándote control total (root) para configurar Node.js y PM2.
+Nube (Cloud): Es una red interconectada de servidores que escala tus recursos dinámicamente según el tráfico de la comunidad, cobrándote exactamente por segundo o por lo que consumes.
+
+4. ¿Qué es cPanel?
+Respuesta:es un panel de control basado en web que simplifica la administración de un servidor o hosting compartido a través de una interfaz gráfica, permitiendo gestionar archivos, correos y bases de datos sin necesidad de usar comandos en la terminal.
+
+5. ¿Qué archivos no deben subirse al repositorio?
+Respuesta:.env
+
+6. ¿Qué función cumple .gitignore?
+Respuesta: indica qué archivos o carpetas no deben ser rastreados por Git para subirse a la nube.
+
+7. ¿Qué función cumple .gitkeep?
+Respuesta:permite conservar una carpeta vacía dentro del repositorio.
+
+8. ¿Qué carpeta se preparó para archivos subidos?
+Respuesta:
+
+9. ¿Por qué los archivos dentro de uploads no deben subirse automáticamente?
+Respuesta: porque son archivos cargados o subidos durante pruebas
+
+10. ¿Qué consulta segura hice a IA?
+Respuesta:Ayúdame a mejorar la redacción de este procedimiento técnico para estudiantes principiantes. No incluyas secretos ni credenciales. Mantén los comandos, organiza los pasos y usa lenguaje claro.
+
+11. ¿Qué información evité compartir con IA?
+Respuesta:informacion personal, tokens, credenciales.
+
+12. ¿Qué parte del procedimiento verifiqué manualmente?
+Respuesta:los logs

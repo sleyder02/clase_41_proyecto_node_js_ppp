@@ -14,3 +14,4 @@
 - [ ] Revisé PM2 si apliqué la operación.
 - [ ] Revisé logs si apliqué diagnóstico.
 - [ ] Documenté la verificación.
+- [ ] Documenté la práctica de Git.

@@ -19,3 +19,7 @@ Practicar ramas, stash, merge fast-forward, merge no-fast-forward y resolución 
 - No-fast-forward:Un No-fast-forward (git merge --no-ff) es un tipo de fusión que obliga a Git a crear siempre un nuevo commit de unión (merge commit), manteniendo intacto el historial visual y la existencia separada de la rama que se integró.
 
 - Conflicto:Un conflicto en Git ocurre cuando dos personas (o ramas) modifican la misma línea de código en un archivo de formas distintas y Git no puede decidir automáticamente cuál versión conservar, requiriendo que un humano elija la correcta de forma manual.
+
+## Nota temporal
+
+Esta nota todavía no está lista para commit.

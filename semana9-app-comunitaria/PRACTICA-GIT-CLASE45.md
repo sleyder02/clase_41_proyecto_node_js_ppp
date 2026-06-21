@@ -25,4 +25,4 @@ Practicar ramas, stash, merge fast-forward, merge no-fast-forward y resolución 
 Esta nota todavía no está lista para commit.
 ## Mensaje de cierre
 
-Mensaje original de cierre de la Semana 9.
+Desde tecnología y comunicaciones, la Semana 9 demuestra que levantar, proteger, diagnosticar, documentar y verificar una aplicación fortalece el proyecto y aumenta la confianza comunitaria.

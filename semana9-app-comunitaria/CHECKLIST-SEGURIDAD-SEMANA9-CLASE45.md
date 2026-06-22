@@ -1,15 +1,15 @@
 # Checklist de seguridad - Semana 9
 
-- [ ] No subí `.env`.
-- [ ] No subí tokens.
-- [ ] No subí contraseñas.
-- [ ] No subí archivos de `uploads/`.
-- [ ] No subí logs locales.
-- [ ] No subí archivos temporales.
-- [ ] Verifiqué `.gitignore`.
-- [ ] Usé `.gitkeep` solo para conservar carpetas.
-- [ ] No pegué secretos en IA.
-- [ ] No publiqué capturas con credenciales.
-- [ ] Verifiqué que `/estado` no muestra información sensible.
-- [ ] Verifiqué que `/diagnostico` no muestra tokens.
-- [ ] Documenté advertencias de seguridad.
+- [NO ] No subí `.env`.
+- [NO ] No subí tokens.
+- [NO ] No subí contraseñas.
+- [NO ] No subí archivos de `uploads/`.
+- [NO ] No subí logs locales.
+- [NO ] No subí archivos temporales.
+- [NO ] Verifiqué `.gitignore`.
+- [SI ] Usé `.gitkeep` solo para conservar carpetas.
+- [NO ] No pegué secretos en IA.
+- [NO ] No publiqué capturas con credenciales.
+- [ SI] Verifiqué que `/estado` no muestra información sensible.
+- [SI ] Verifiqué que `/diagnostico` no muestra tokens.
+- [SI ] Documenté advertencias de seguridad.
